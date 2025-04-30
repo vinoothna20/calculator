@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainCont {
+    width: 400px;
+    background-color: lightseagreen;
+    padding: 8px 10px 6px;
+}
+
+#displayCont {
+    padding: 18px 6px;
+    text-align: right;
+    font-size: 50px;
+    background-color: lightcyan;
+    margin-bottom: 8px;
+}
+
+#btnsCont .row {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+#btnsCont > .row button{
+    flex: 1;
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+#btnsCont .lastRowCont {
+    display: flex;
+}
+
+#btnsCont .lastRowCont > div:first-child {
+    flex: 1;
+}
+
+#btnsCont .lastRowCont .row {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+#btnsCont .lastRowCont .row button {
+    flex: 1;
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.equalsToBtn {
+    padding: 25px 41px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+#btnsCont .lastRowCont .lastRow {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 3px;
+}
+
+#btnsCont .lastRowCont .lastRow .dotBtn {
+    padding: 25px 44px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+#btnsCont .lastRowCont .lastRow .zeroBtn {
+    padding: 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+}
