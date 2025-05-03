@@ -10,84 +10,49 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 
 #mainCont {
     width: 400px;
-    background-color: lightseagreen;
-    padding: 8px 10px 6px;
+    /* background-color: lightseagreen; */
+    background-color: blue;   
+    padding: 10px 15px 8px;
+    border-radius: 5px;
 }
 
 #displayCont {
-    padding: 18px 6px;
-    text-align: right;
-    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 6px;
+    font-size: 35px;
     background-color: lightcyan;
     margin-bottom: 8px;
+    height: 90px;
+    overflow-x: auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
-#btnsCont .row {
+#btnsCont  {
     display: flex;
-    gap: 3px;
-    margin-bottom: 3px;
+    gap: 5px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
 }
 
-#btnsCont > .row button{
+#btnsCont button {
     flex: 1;
-    padding: 25px;
+    padding: 29px 31px;
     font-size: 18px;
     border: none;
     border-radius: 10px;
+    background-color: black;
+    color: white;
 }
 
-#btnsCont .lastRowCont {
-    display: flex;
-}
-
-#btnsCont .lastRowCont > div:first-child {
-    flex: 1;
-}
-
-#btnsCont .lastRowCont .row {
-    display: flex;
-    gap: 3px;
-    margin-bottom: 3px;
-}
-
-#btnsCont .lastRowCont .row button {
-    flex: 1;
-    padding: 25px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-}
-
-.equalsToBtn {
-    padding: 25px 41px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-    margin-left: 3px;
-    margin-bottom: 3px;
-}
-
-#btnsCont .lastRowCont .lastRow {
-    display: flex;
-    gap: 3px;
-    margin-bottom: 3px;
-}
-
-#btnsCont .lastRowCont .lastRow .dotBtn {
-    padding: 25px 44px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-}
-
-#btnsCont .lastRowCont .lastRow .zeroBtn {
-    padding: 25px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-    flex: 1;
+#btnsCont button:hover {
+    background-color: rgb(71, 67, 67);
 }
